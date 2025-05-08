@@ -1,1 +1,3 @@
-# Copyright ©️ 2025 XenovoAi
+# Copyright ©️ 2025 THEETOX
+# Handlers package initialization
+
