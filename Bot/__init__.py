@@ -1,1 +1,1 @@
-# Copyright ©️ 
+# Utils package initialization
