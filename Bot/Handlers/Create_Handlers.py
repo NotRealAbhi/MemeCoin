@@ -8,9 +8,9 @@ import os
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ForceReply
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters, ConversationHandler
-from utils.image_processor import compress_image
-from utils.blockchain import deploy_contract
-from utils.database import add_new_coin, get_user_coin
+from Utils.Image_Processor import compress_image
+from Utils.BlockChain import deploy_contract
+from Utils.Database import add_new_coin, get_user_coin
 import random
 import string
 
