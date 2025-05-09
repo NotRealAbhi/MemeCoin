@@ -31,7 +31,7 @@ from Handlers.Create_Handlers import setup_create_handlers
 from Handlers.Payment_Handlers import setup_payment_handlers
 from Handlers.Utility_Handlers import setup_utility_handlers
 from Utils.Image_Processor import compress_image
-from Utils.Blockchain import deploy_contract, unlock_trading, submit_cmc
+from Utils.BlockChain import deploy_contract, unlock_trading, submit_cmc
 from Utils.Database import setup_database, get_user_coin, update_coin_status
 
 # Load environment variables
