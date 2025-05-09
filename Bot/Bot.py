@@ -27,12 +27,12 @@ import string
 import asyncio
 
 # Import handlers and utilities
-from Handlers.Create_Handlers import setup_create_handlers
-from Handlers.Payment_Handlers import setup_payment_handlers
-from Handlers.Utility_Handlers import setup_utility_handlers
-from Utils.Image_Processor import compress_image
-from Utils.BlockChain import deploy_contract, unlock_trading, submit_cmc
-from Utils.Database import setup_database, get_user_coin, update_coin_status
+from Bot.Handlers.Create_Handlers import setup_create_handlers
+from Bot.Handlers.Payment_Handlers import setup_payment_handlers
+from Bot.Handlers.Utility_Handlers import setup_utility_handlers
+from Bot.Utils.Image_Processor import compress_image
+from Bot.Utils.BlockChain import deploy_contract, unlock_trading, submit_cmc
+from Bot.Utils.Database import setup_database, get_user_coin, update_coin_status
 
 # Load environment variables
 load_dotenv()
