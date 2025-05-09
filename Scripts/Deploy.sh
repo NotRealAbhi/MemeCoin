@@ -49,7 +49,7 @@ python -c "from bot.utils.database import setup_database; setup_database()"
 
 # Start the bot
 echo "Starting the bot..."
-python -m bot.bot
+python -m Bot.Bot
 
 echo "Deployment complete!"
 
