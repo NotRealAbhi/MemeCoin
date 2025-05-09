@@ -9,8 +9,8 @@ import logging
 import time
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
-from Utils.BlockChain import unlock_trading, submit_cmc, verify_payment
-from Utils.Database import get_user_coin, update_coin_status
+from Bot.Utils.BlockChain import unlock_trading, submit_cmc, verify_payment
+from Bot.Utils.Database import get_user_coin, update_coin_status
 
 # Configure logging
 logging.basicConfig(
