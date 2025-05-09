@@ -8,7 +8,7 @@ import os
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
-from Utils.Database import get_user_coin
+from Bot.Utils.Database import get_user_coin
 import openai
 
 # Configure logging
