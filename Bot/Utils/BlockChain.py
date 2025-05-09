@@ -33,7 +33,7 @@ w3 = Web3(Web3.HTTPProvider(BSC_RPC_URL))
 w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 
 # Load contract ABI
-with open(os.path.join(os.path.dirname(__file__), '../../contracts/MemeCoin.json'), 'r') as f:
+with open(os.path.join(os.path.dirname(__file__), '../../Bot/Contracts/MemeCoin.json'), 'r') as f:
     contract_data = json.load(f)
     CONTRACT_ABI = contract_data['abi']
     CONTRACT_BYTECODE = contract_data['bytecode']
